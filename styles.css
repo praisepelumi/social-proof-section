@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 15px;
     font-family: 'Spartan', 'sans serif';
@@ -107,7 +108,7 @@ body {
 
 .image-holder {
     margin-right: 1.5rem;
-    /* This pushes whatever is on the right side of the image away */
+    /* This creates space between the image and what is to the right of it */
 }
 
 .image-holder img {
