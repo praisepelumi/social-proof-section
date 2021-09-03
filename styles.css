@@ -10,7 +10,7 @@ html {
 
 body {
     width: 100vw;
-    min-width: 375px;
+    /* min-width: 375px; */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,16 +24,13 @@ body {
 .main-container {
     border: 1px solid white;
     width: 100vw;
-    /* display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     padding: 5rem 1.5rem;
 }
 
 .top-container {
     text-align: center;
-    display: flex;
 }
 
 .header {
@@ -146,6 +143,7 @@ body {
         background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat, no-repeat;
         background-position: top left, bottom right;
+        display: flex;
     }
 
     .main-container {
@@ -155,11 +153,79 @@ body {
         margin: 5rem 0;
     }
 
-    .top-container {
-        display: flex;
-        flex-direction: row;
-    }
+   .top-container {
+       display: flex;
+       flex-direction: row;
+   }
 
+   .info-container {
+       flex-grow: 1;
+       flex-basis: 0;
+       text-align: start;
+   }
+
+   .info-container .header {
+       width: 75%;
+       font-size: 2.75rem
+   }
+
+   .info-container .about {
+       width: 80%;
+   }
+
+   .accolades-container {
+       flex-grow: 1;
+       flex-basis: 0;
+       align-items: flex-start;
+   }
+
+   .accolades {
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       width: 85%;
+       padding: 1.2rem 0;
+   }
+
+   .star-div {
+       margin: 0 2rem;
+   }
+
+   
+
+   .report-guru {
+       margin-left: 3rem;
+   }
+
+   .best-tech {
+       margin-left: 5.65rem;
+   }
+
+   .review-container {
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       margin-top: 3rem;
+   }
+
+   .comment-box {
+       margin: 0;
+       flex-grow: 1;
+       flex-basis: 0;
+   }
+
+   .colton {
+        margin-top: 2rem;
+   }
+
+   .irene {
+       margin: 0 2rem;
+       margin-top: 4rem;
+   }
+
+   .anne {
+       margin-top: 6.4rem;
+   }
  
 
 
