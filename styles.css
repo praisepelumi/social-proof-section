@@ -123,6 +123,7 @@ body {
 
 .name {
     color:hsl(0, 0%, 100%);
+    font-size: 0.85rem;
 
 }
 
